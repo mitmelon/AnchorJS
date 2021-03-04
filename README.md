@@ -1,26 +1,26 @@
 # Anchor 1.0.0
- Anchor is a tiny ES6 JavaScript library used to track elements on a page without using google analytics or any third party scripts. It tracks mouse events and clicks and sends tracking to your backend code to store inside your database.
+ Anchorjs is a tiny ES6 JavaScript library used to track elements on a page without using google analytics or any third party scripts. It tracks mouse events and clicks and sends tracking to your backend code to store inside your database.
 
- You can also pass custom event names to anchor
+ You can also pass custom event names to anchorjs
 
 # Supported Browsers
  ![3c8x9](https://user-images.githubusercontent.com/55149512/109938700-a0ef2100-7cd0-11eb-9c52-66ecea2cd046.png)
 
  # How to use it:
 
-1. Add Anchor to your page inside the head tag or footer
+1. Add Anchorjs to your page inside the head tag or footer
 
 ```
-<script src="anchor.min.js"></script>
+<script src="anchorjs.min.js"></script>
 ```
 
-2. Initialize Anchor by adding this code to your page
+2. Initialize Anchorjs by adding this code to your page
 
 ```js
 
 if (document.getElementsByClassName('MAnchors_').length) {
     var tracking = document.getElementsByClassName('MAnchors_');
-    var tracker = new Anchor;
+    var tracker = new AnchorJS;
     tracker.endpoint = 'PLACE_YOUR_ANCHOR_TRACKER_BACKEND_LINK_HERE';
     for (const tt of tracking) {
       tracker.init(tt);
@@ -36,7 +36,7 @@ if (document.getElementsByClassName('MAnchors_').length) {
 <div class="MAnchors_" anchor-name="Payment Button">Make Payment</div>
 
 <!-- For Links -->
-<a href="" class="MAnchors_" anchor-name="Download Button">Download File</a>
+<a href="#" class="MAnchors_" anchor-name="Download Button">Download File</a>
 
 ```
 
@@ -51,7 +51,7 @@ if (document.getElementsByClassName('MAnchors_').length) {
 
 if (document.getElementsByClassName('MAnchors_').length) {
     var tracking = document.getElementsByClassName('MAnchors_');
-    var tracker = new Anchor;
+    var tracker = new AnchorJS;
     //Your custom events here
     tracker.events = ['drag','dragend', 'dragenter']//etc
     tracker.endpoint = 'PLACE_YOUR_ANCHOR_TRACKER_BACKEND_LINK_HERE';
@@ -83,7 +83,7 @@ $timezone = strip_tags($_POST['timezone']);
 //Store in DB
 //call_db_function()
 
-//You can also use python or any language of your choice for your backend implimentation.
+//You can also use python or any language of your choice for your backend implementation.
 
 ```
 
