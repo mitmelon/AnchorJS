@@ -1,4 +1,4 @@
-# Anchor 1.0.0
+# AnchorJS 1.0.0
  Anchorjs is a tiny ES6 JavaScript library used to track elements on a page without using google analytics or any third party scripts. It tracks mouse events and clicks and sends tracking to your backend code to store inside your database.
 
  You can also pass custom event names to anchorjs
