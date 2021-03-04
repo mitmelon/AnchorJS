@@ -73,7 +73,6 @@ $positionx = strip_tags($_POST['x']);
 $positiony = strip_tags($_POST['y']);
 $screenX = strip_tags($_POST['screenX']);
 $screenY = strip_tags($_POST['screenY']);
-$screenY = strip_tags($_POST['anchor_name']);
 $pageName = strip_tags($_POST['page_name']);
 $origin = strip_tags($_POST['origin']);
 $platform = strip_tags($_POST['platform']);
