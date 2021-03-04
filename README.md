@@ -33,10 +33,10 @@ if (document.getElementsByClassName('MAnchors_').length) {
 
 ```html
 <!-- For Div -->
-<div class="MAnchors_" anchor-name="Payment Button">
+<div class="MAnchors_" anchor-name="Payment Button">Make Payment</div>
 
 <!-- For Links -->
-<a href="" class="MAnchors_" anchor-name="Download Button"></a>
+<a href="" class="MAnchors_" anchor-name="Download Button">Download File</a>
 
 ```
 
