@@ -17,7 +17,6 @@
 2. Initialize Anchor by adding this code to your page
 
 ```js
-<script src="Anchor.js"></script>
 
 if (document.getElementsByClassName('MAnchors_').length) {
     var tracking = document.getElementsByClassName('MAnchors_');
