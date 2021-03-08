@@ -5,6 +5,7 @@
 
 # Supported Browsers
  ![3c8x9](https://user-images.githubusercontent.com/55149512/109938700-a0ef2100-7cd0-11eb-9c52-66ecea2cd046.png)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmitmelon%2FAnchorJS.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmitmelon%2FAnchorJS?ref=badge_shield)
 
  # How to use it:
 
@@ -90,3 +91,6 @@ $timezone = strip_tags($_POST['timezone']);
 If you find any bugs, please post an issue or send me a note at manomitehq@gmail.com.
 
 If you want to contribute to this code, make a pull request.
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmitmelon%2FAnchorJS.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmitmelon%2FAnchorJS?ref=badge_large)
